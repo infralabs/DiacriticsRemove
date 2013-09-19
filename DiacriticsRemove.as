@@ -8,7 +8,7 @@
 * 
 * Removes diacritics from strings containing Latin-1 Supplement, Latin Extended-A and Latin Extended-B special characters.
 * @authors Infralabs
-* @version 0.1
+* @version 0.1.1
 */
 
 package 
@@ -17,13 +17,13 @@ package
 	public class DiacriticsRemove
 	{
 
-		private static var defaultDiacriticsRemovalMap = new Array();
+		private static var defaultDiacriticsRemovalMap:Array = new Array();
 
 		public function Parse(str:String):String
 		{
 			defaultDiacriticsRemovalMapSet();
 
-			for (var i = 0; i < defaultDiacriticsRemovalMap.length; i++)
+			for (var i:uint = 0; i < defaultDiacriticsRemovalMap.length; i++)
 			{
 				if (defaultDiacriticsRemovalMap[i].letters)
 				{
