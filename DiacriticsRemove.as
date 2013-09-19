@@ -7,8 +7,8 @@
 * Hashed lines represent original character codes taken from JS.
 * 
 * Removes diacritics from strings containing Latin-1 Supplement, Latin Extended-A and Latin Extended-B special characters.
-* @authors Mika Palmu
-* @version 2.0
+* @authors Infralabs
+* @version 0.1
 */
 
 package 
