@@ -15,7 +15,9 @@
 			specialCharacters+="Latin Extended-A\n";
 			specialCharacters+="ĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ\n";
 			specialCharacters+="Latin Extended-B\n";
-			specialCharacters+="ƒǺǻǼǽǾǿ";
+			specialCharacters+="ƒǺǻǼǽǾǿ\n";
+			specialCharacters+="Latin Extended Additional\n";
+			specialCharacters+="ẀẁẂẃẄẅỲỳ\n";
 
 			trace(specialCharacters);
 			trace(new DiacriticsRemove().Parse(specialCharacters));

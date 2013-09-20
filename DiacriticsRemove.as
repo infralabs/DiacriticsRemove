@@ -6,9 +6,9 @@
 * and modified by customizing to AS3 and removing unsupported character codes.
 * Hashed lines represent original character codes taken from JS.
 * 
-* Removes diacritics from strings containing Latin-1 Supplement, Latin Extended-A and Latin Extended-B special characters.
+* Removes diacritics from strings containing Latin-1 Supplement, Latin Extended-A, Latin Extended-B and Latin Extended Additional special characters.
 * @authors Infralabs
-* @version 0.1.1
+* @version 0.1.2
 */
 
 package 
